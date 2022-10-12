@@ -1,0 +1,46 @@
+.active {
+    background-color: red;
+}
+
+div {
+    border: 1px solid blue;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+/* del2 */
+
+.center-children {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    margin: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+      background-color: olive;
+    }
+
+    .two-container {
+        display: block;
+    }
+
+    #gallery-section {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
